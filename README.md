@@ -1,16 +1,25 @@
-# React + Vite
+# 끝말잇기 게임 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React로 만든 끝말잇기 단어 게임입니다.
 
-Currently, two official plugins are available:
+## 📌 프로젝트 소개
+시작 단어가 주어지면 마지막 글자로 시작하는 단어를 이어가는 게임입니다.
+엔터키 또는 확인 버튼으로 단어를 입력할 수 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ 주요 기능
+- 시작 단어 props 전달
+- 첫 글자 / 마지막 글자 일치 여부 검증
+- 정답 / 오답 안내 메시지 표시
+- 엔터키 입력 지원
+- 자동 포커스
 
-## React Compiler
+## 🛠 사용 기술
+- React (useState, useEffect, useRef)
+- Vite
+- SCSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 실행 방법
+```bash
+npm install
+npm run dev
+```
